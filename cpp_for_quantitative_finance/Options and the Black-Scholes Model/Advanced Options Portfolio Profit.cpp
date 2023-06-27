@@ -117,16 +117,3 @@ if(termPr < strkPr) posVal = strkPr - termPr;
 break; }
 
 return posVal; }
-
-
-
-
-
-
-
-
-
-
-
-
-

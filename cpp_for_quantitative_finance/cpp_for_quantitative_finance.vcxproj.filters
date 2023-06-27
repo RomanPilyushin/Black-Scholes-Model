@@ -21,9 +21,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpp_for_quantitative_finance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Loan\Changing Annual Payment.cpp">
       <Filter>Source Files\Loan</Filter>
     </ClCompile>

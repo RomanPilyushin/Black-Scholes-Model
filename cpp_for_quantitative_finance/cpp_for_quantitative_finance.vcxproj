@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpp_for_quantitative_finance.cpp" />
     <ClCompile Include="Loan\Changing Annual Payment.cpp" />
     <ClCompile Include="Loan\Changing Interest Rate.cpp" />
     <ClCompile Include="Loan\Constant Annuities.cpp" />
