@@ -18,13 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp_for_quantitative_finance\Options and the Black-Scholes Model\Option.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b3b5be61-a222-4b3d-a84b-c412026b9870}</ProjectGuid>
-    <RootNamespace>cppforquantitativefinance</RootNamespace>
+    <ProjectGuid>{193f999f-e0fd-4523-b4a3-5fb3b0d069e6}</ProjectGuid>
+    <RootNamespace>Option</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Black-Scholes-Model</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

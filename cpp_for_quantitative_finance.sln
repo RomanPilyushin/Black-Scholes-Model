@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_for_quantitative_finance", "cpp_for_quantitative_finance\cpp_for_quantitative_finance.vcxproj", "{B3B5BE61-A222-4B3D-A84B-C412026B9870}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Option", "Option\Option.vcxproj", "{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Options Portfolio Profit at Expiration", "Options Portfolio Profit at Expiration\Options Portfolio Profit at Expiration.vcxproj", "{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Advanced Options Portfolio Profit", "Advanced Options Portfolio Profit\Advanced Options Portfolio Profit.vcxproj", "{08E7A56F-CB92-40D6-A143-6F7395223270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,30 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Debug|x64.ActiveCfg = Debug|x64
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Debug|x64.Build.0 = Debug|x64
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Debug|x86.ActiveCfg = Debug|Win32
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Debug|x86.Build.0 = Debug|Win32
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Release|x64.ActiveCfg = Release|x64
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Release|x64.Build.0 = Release|x64
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Release|x86.ActiveCfg = Release|Win32
-		{B3B5BE61-A222-4B3D-A84B-C412026B9870}.Release|x86.Build.0 = Release|Win32
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Debug|x64.ActiveCfg = Debug|x64
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Debug|x64.Build.0 = Debug|x64
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Debug|x86.Build.0 = Debug|Win32
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Release|x64.ActiveCfg = Release|x64
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Release|x64.Build.0 = Release|x64
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Release|x86.ActiveCfg = Release|Win32
+		{193F999F-E0FD-4523-B4A3-5FB3B0D069E6}.Release|x86.Build.0 = Release|Win32
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Debug|x64.ActiveCfg = Debug|x64
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Debug|x64.Build.0 = Debug|x64
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Debug|x86.Build.0 = Debug|Win32
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Release|x64.ActiveCfg = Release|x64
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Release|x64.Build.0 = Release|x64
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Release|x86.ActiveCfg = Release|Win32
+		{5F1AF659-8F38-498B-B3D1-D46B851BB9B8}.Release|x86.Build.0 = Release|Win32
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Debug|x64.ActiveCfg = Debug|x64
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Debug|x64.Build.0 = Debug|x64
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Debug|x86.ActiveCfg = Debug|Win32
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Debug|x86.Build.0 = Debug|Win32
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Release|x64.ActiveCfg = Release|x64
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Release|x64.Build.0 = Release|x64
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Release|x86.ActiveCfg = Release|Win32
+		{08E7A56F-CB92-40D6-A143-6F7395223270}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
