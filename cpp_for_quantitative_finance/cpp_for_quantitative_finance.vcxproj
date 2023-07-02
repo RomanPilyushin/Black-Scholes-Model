@@ -24,6 +24,7 @@
     <ProjectGuid>{b3b5be61-a222-4b3d-a84b-c412026b9870}</ProjectGuid>
     <RootNamespace>cppforquantitativefinance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Black-Scholes-Model</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,10 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Loan\Changing Annual Payment.cpp" />
-    <ClCompile Include="Loan\Changing Interest Rate.cpp" />
-    <ClCompile Include="Loan\Constant Annuities.cpp" />
-    <ClCompile Include="Loan\Fixed Interest Rate.cpp" />
     <ClCompile Include="Options and the Black-Scholes Model\Advanced Options Portfolio Profit.cpp" />
     <ClCompile Include="Options and the Black-Scholes Model\Option.cpp" />
     <ClCompile Include="Options and the Black-Scholes Model\Options Portfolio Profit at Expiration.cpp" />
